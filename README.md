@@ -30,7 +30,7 @@ with open('read_text_filename.txt', 'r') as readfile, open('write_text_filename.
 
     # Loop through each character in the 'characters' list
     for char in characters:
-        # Use a dictionary to track unique characters and set initial count to 0
+        # Use a dictionary to track unique characters and set the  initial value to 0
         unique_characters2[char] = 0
 
     # Write unique characters to the output file, one character per line
