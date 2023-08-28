@@ -18,6 +18,7 @@ with open('read_text_filename.txt', 'r') as readfile, open('write_text_filename.
                 characters.append(char)
 
     # Finding unique characters and writing them to the output file
+
     # Method 1:
     unique_characters1 = sorted(set(characters))
     # Write unique characters to the output file, one character per line
